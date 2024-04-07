@@ -25,7 +25,7 @@ setStoryBord(true);
    
 
     <div className='bg-[#f5f6f0]'>
-      <div className='flex flex-col w-[96%] mx-auto  mb-7'>
+      <div className='flex flex-col md:w-[96%] w-fit justify-center mx-auto  mb-7'>
 
       <div className=' flex justify-between pt-[4rem]'>
         <div className='flex gap-x-3 items-center'>
@@ -67,7 +67,7 @@ setStoryBord(true);
 
     </div>
 
-    <div className='flex flex-wrap justify-start items-center gap-x-6'>
+    <div className='flex flex-wrap md:justify-start justify-center items-center gap-x-6'>
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
     <a href="#">
         <img class="rounded-t-lg" src={ProjectImg} alt="" />
