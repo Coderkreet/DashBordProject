@@ -6,7 +6,7 @@ import Newstoryboard from "./Component/Newstoryboard";
 
 function App() {
   return (
-    <div className="w-fit md:w-full">
+    <div className="w-fit md:w-full px-5 ">
       <OfferLine/>
       <NavBar/>
       <HeroSection/>
